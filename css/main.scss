@@ -1,0 +1,96 @@
+$font-stack: "Poppins", sans-serif;
+$primary-color: #253437;
+$white-color: #ffffff;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $primary-color;
+  font-family: $font-stack;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+}
+
+// Navbar
+.navbar-brand:focus,
+.navbar-brand:hover {
+  color: $white-color;
+}
+.navbar-brand {
+  color: $white-color;
+  font-size: 40px;
+}
+.nav-link {
+  color: $white-color;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: $white-color;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: $white-color;
+}
+.fixed-header.scroll {
+  background: rgba(0, 0, 0, 0.5);
+}
+// Navbar
+
+// Carousel Banner
+.carousel-caption {
+  right: 8%;
+  left: 8%;
+  bottom: 4.25rem;
+}
+.carousel-caption h5 {
+  font-size: 3.25rem;
+  text-align: left;
+}
+.carousel-caption p {
+  text-align: left;
+}
+// Carousel Banner
+
+// Gallery
+.gallery-box {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: $white-color;
+  font-size: 20px;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.example-image-link:hover .overlay {
+  opacity: 1;
+}
+.light-gray {
+  background-color: #eee;
+}
+#carouselExampleCaptionsTest .carousel-indicators {
+  justify-content: right;
+  margin-right: 3%;
+}
+footer ul {
+  border-bottom: 1px solid #6c757d;
+}
+
+@media (max-width: 992px) {
+  .navbar .navbar-toggler[aria-expanded="true"] {
+    color: $white-color !important;
+  }
+  .navbar .navbar-toggler:focus {
+    color: $white-color;
+  }
+}

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SNAPSTAR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/lightbox.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+      "
+    />
+    <link href="./css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top fixed-header">
+      <div class="container">
+        <a class="navbar-brand" href="#">SNAPSTAR</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Journal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide carousel-fade"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/banner1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to SS Photography</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/banner2.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Inspire Your Lifestyle</h5>
+            <p>
+              Vestibulum sollicitudin pretium felis in eleifend leo tempor et.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/banner3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Begin With Your Lifestyle</h5>
+            <p>
+              Suspendisse gravida leo in interdum semper sagittis nunc velit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="pt-5 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-mb-12 offset-lg-2">
+            <h2 class="text-center">About SNAPSTAR</h2>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              tellus ligula, condimentum scelerisque urna sit amet, mollis
+              elementum diam. Aliquam cursus ac leo ultricies dapibus. Aliquam
+              id felis rutrum, convallis arcu a, convallis felis. Mauris
+              convallis augue sit amet varius cursus. Nullam fermentum ornare
+              porttitor. Sed fermentum aliquet ante condimentum auctor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="light-gray">
+      <div class="container">
+        <!-- Gallery -->
+        <div class="row pt-5 pb-4">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <div class="gallery-box mb-4">
+              <a
+                class="example-image-link"
+                href="./images/g-1.jpg"
+                data-lightbox="example-set"
+                data-title=""
+              >
+                <span class="overlay"
+                  ><i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+                <img
+                  class="example-image w-100 shadow-1-strong"
+                  src="./images/g-1.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="gallery-box mb-4">
+              <a
+                class="example-image-link"
+                href="./images/g-2.jpg"
+                data-lightbox="example-set"
+                data-title=""
+              >
+                <span class="overlay"
+                  ><i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+                <img
+                  class="example-image w-100 shadow-1-strong"
+                  src="./images/g-2.jpg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="gallery-box mb-4">
+              <a
+                class="example-image-link"
+                href="./images/g-3.jpg"
+                data-lightbox="example-set"
+                data-title=""
+              >
+                <span class="overlay"
+                  ><i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+                <img
+                  class="example-image w-100 shadow-1-strong"
+                  src="./images/g-3.jpg"
+                  alt=""
+              /></a>
+            </div>
+
+            <div class="gallery-box mb-4">
+              <a
+                class="example-image-link"
+                href="./images/g-4.jpg"
+                data-lightbox="example-set"
+                data-title=""
+              >
+                <span class="overlay"
+                  ><i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+                <img
+                  class="example-image w-100 shadow-1-strong"
+                  src="./images/g-4.jpg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="gallery-box mb-4">
+              <a
+                class="example-image-link"
+                href="./images/g-5.jpg"
+                data-lightbox="example-set"
+                data-title=""
+              >
+                <span class="overlay"
+                  ><i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+                <img
+                  class="example-image w-100 shadow-1-strong"
+                  src="./images/g-5.jpg"
+                  alt=""
+              /></a>
+            </div>
+
+            <div class="gallery-box mb-4">
+              <a
+                class="example-image-link"
+                href="./images/g-6.jpg"
+                data-lightbox="example-set"
+                data-title=""
+              >
+                <span class="overlay"
+                  ><i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+                <img
+                  class="example-image w-100 shadow-1-strong"
+                  src="./images/g-6.jpg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!-- Gallery -->
+      </div>
+    </section>
+
+    <section class="pt-5 pb-5">
+      <div class="container">
+        <div
+          id="carouselExampleCaptionsTest"
+          class="carousel slide carousel-fade"
+          data-bs-ride="false"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptionsTest"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptionsTest"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptionsTest"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-sm-6 col-md-6">
+                  <h2>Testimonial</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque tellus ligula, condimentum scelerisque urna sit
+                    amet, mollis elementum diam. Aliquam cursus ac leo ultricies
+                    dapibus. Aliquam id felis rutrum, convallis arcu a,
+                    convallis felis. Mauris convallis augue sit amet varius
+                    cursus. Nullam fermentum ornare porttitor. Sed fermentum
+                    aliquet ante condimentum auctor. Morbi sem odio, luctus sed
+                    pulvinar vel, rhoncus at magna. Aliquam sollicitudin nibh
+                    sapien, sed dapibus sapien facilisis in.
+                  </p>
+                  <p><strong>K. Kriebel, Australia</strong></p>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                  <img src="./images/g-1.jpg" class="" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-sm-6 col-md-6">
+                  <h2>Testimonial</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque tellus ligula, condimentum scelerisque urna sit
+                    amet, mollis elementum diam. Aliquam cursus ac leo ultricies
+                    dapibus. Aliquam id felis rutrum, convallis arcu a,
+                    convallis felis. Mauris convallis augue sit amet varius
+                    cursus. Nullam fermentum ornare porttitor. Sed fermentum
+                    aliquet ante condimentum auctor.
+                  </p>
+                  <p><strong>P.Ferris, Austria</strong></p>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                  <img src="./images/g-4.jpg" class="" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-sm-6 col-md-6">
+                  <h2>Testimonial</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque tellus ligula, condimentum scelerisque urna sit
+                    amet, mollis elementum diam. Aliquam cursus ac leo ultricies
+                    dapibus. Aliquam id felis rutrum, convallis arcu a,
+                    convallis felis. Mauris convallis augue sit amet varius
+                    cursus. Nullam fermentum ornare porttitor. Sed fermentum
+                    aliquet ante condimentum auctor. Morbi sem odio, luctus sed
+                    pulvinar vel, rhoncus at magna.
+                  </p>
+                  <p>
+                    <strong>H.Boyer, Canada</strong>
+                  </p>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                  <img src="./images/g-5.jpg" class="" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark py-3">
+      <div class="container">
+        <ul class="nav justify-content-center pb-3 mb-3">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Portfolios</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Journal</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Events</a>
+          </li>
+        </ul>
+        <p class="text-center text-muted">© 2024 Snapstar</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/lightbox-plus-jquery.min.js"></script>
+    <script>
+      var header = document.querySelector(".fixed-header");
+      function handleScroll() {
+        if (window.scrollY > 0) {
+          header.classList.add("scroll");
+        } else {
+          header.classList.remove("scroll");
+        }
+      }
+      window.addEventListener("scroll", handleScroll);
+    </script>
+  </body>
+</html>

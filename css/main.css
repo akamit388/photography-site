@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #253437;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+  color: #ffffff;
+}
+
+.navbar-brand {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: #ffffff;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.fixed-header.scroll {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption {
+  right: 8%;
+  left: 8%;
+  bottom: 4.25rem;
+}
+
+.carousel-caption h5 {
+  font-size: 3.25rem;
+  text-align: left;
+}
+
+.carousel-caption p {
+  text-align: left;
+}
+
+.gallery-box {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.example-image-link:hover .overlay {
+  opacity: 1;
+}
+
+.light-gray {
+  background-color: #eee;
+}
+
+#carouselExampleCaptionsTest .carousel-indicators {
+  justify-content: right;
+  margin-right: 3%;
+}
+
+footer ul {
+  border-bottom: 1px solid #6c757d;
+}
+
+@media (max-width: 992px) {
+  .navbar .navbar-toggler[aria-expanded=true] {
+    color: #ffffff !important;
+  }
+  .navbar .navbar-toggler:focus {
+    color: #ffffff;
+  }
+}/*# sourceMappingURL=main.css.map */
